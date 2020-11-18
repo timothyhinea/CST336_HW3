@@ -1,1 +1,40 @@
-<HTML>
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Rick and Morty</title>
+          <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <h1> Rick and Morty Characters </h1><hr>
+        <h3>Enter a number between 1 and 627 to look up a character!</h3><br>
+        ID:   <input type="text" id="characters" name="characters"><br> 
+        <input type="submit" id="b1"><br>
+        <span id="charactersNotFound" class="toggle">Invalid Entry!</span><br>
+        <div class="toggle" id="infoSection" >
+            
+            Name:  <span id="name"></span><br>
+            Species:  <span id="species"></span> <br>
+            Location:  <span id="location"></span> <br>
+            Origin:  <span id="origin"></span> <br>
+            Gender:  <span id="gender"></span> <br>
+            Status:  <span id="status"></span> <br>
+            <img src="" id="characterPicture" /><br><br>
+        </div>
+        
+        <script src="js/app.js"></script>
+        <footer>
+            <hr>
+            <figure>
+                <img src="img/CSUMB_logo.png" alt="CSUMB logo" id="CSUMB" />
+            </figure>
+            CST 336 Internet Programming. 2020&copy; Hinea 
+            <br/>
+            <br/>
+        </footer>
+    </body>
+    
+</html>

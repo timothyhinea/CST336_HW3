@@ -1,0 +1,26 @@
+h1{
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-top: 0;
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    background-image:url("https://wallpapercave.com/wp/wp1822739.jpg");
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+#wonPairs{
+    border-bottom:5px #28a745 dotted;
+    padding:20px;
+}
+
+.toggle{
+   display:none;
+}
